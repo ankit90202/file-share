@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .login {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      ul {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login">
+      <form action="/profile" method="POST" enctype="multipart/form-data">
+        <input type="file" name="user" id="" />
+        <input type="submit" name="" id="" />
+      </form>
+      <ul id="user_detail"></ul>
+    </div>
+    <div id="uploaded">
+      <a href="" target="_blank">
+        <img src="" alt="" height="150px" width="150px" />
+      </a>
+    </div>
+
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
